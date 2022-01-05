@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Gotham", sans-serif;
+  src: url("../fonts/GothamBold.ttf");
+}
+
+ 
+
+ 
+
+ 
+
+.main-panel > .content {
+  padding: 30px 4rem;
+  min-height: calc(100% - 123px);
+}
+
+.main-panel .go-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.main-panel .go-back p {
+  margin-left: 0.75rem;
+}
+
+.main-panel h3 {
+  font-family: "Gotham", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.375rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.main-panel .upload-picture {
+  position: relative;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+.main-panel .upload-picture h3 {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background: rgba(222, 105, 68, 0.1);
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+}
+
+.drag-area {
+  border: 1px dashed #000;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+   
+   
+}
+.drag-area.active {
+  border: 2px solid #fff;
+}
+.drag-area .icon {
+  font-size: 100px;
+  color: #fff;
+}
+.drag-area header {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+.drag-area span {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+  margin: 10px 0 15px 0;
+}
+.drag-area button {
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #046307;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 420px;
+}
+.drag-area img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.main-panel .wishlist-form {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  position: relative;
+}
+.main-panel .wishlist-form h3 {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background: rgba(222, 105, 68, 0.1);
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+}
+
+.main-panel .formr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlist-form .first-row {
+  margin-bottom: 1.5rem;
+}
+.wishlist-form .first-row .formc {
+  width: 48%;
+}
+
+.wishlist-form .last-row {
+  margin-bottom: 1.5rem;
+}
+.wishlist-form .last-row .formc {
+  width: 31%;
+}
+
+.main-panel .formc label {
+  display: block;
+  font-size: 0.9rem;
+   
+  color: #696f79;
+  font-weight: 500;
+}
+
+.main-panel .formc input,
+.main-panel .formc textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-panel .submit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.main-panel .submit-btn button {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  background-color: #046307;         
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main-panel {
+    width: 100%;
+    margin-top: 50px;
+    padding:5px;
+  }
+  .main-panel > .content {
+  
+    padding: 1rem;
+  }
+  .main-panel h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .main-panel .formr {
+    display: flex;
+    flex-direction: column;
+  }
+  .drag-area button {
+     
+    margin-left: 70px;
+  }
+
+  .wishlist-form .first-row {
+    margin-bottom: 0.5rem;
+  }
+  .wishlist-form .first-row .formc {
+    width: 100%;
+  }
+
+  .wishlist-form .last-row {
+    margin-bottom: 0.5rem;
+  }
+  .wishlist-form .last-row .formc {
+    width: 100%;
+  }
+   
+}
+/*# sourceMappingURL=style.css.map */
+/* @media (max-width:650px) {
+      
+
+  .side-menu {
+    width: 100%;
+    background-color: #046307a9;
+    transition: all 0.5s;
+    text-align: center;
+    left: 100%;
+  }
+
+  .side-menu a i {
+    display: none;
+  }
+
+  .side-menu a span {
+    display: block;
+
+  }
+
+  nav .menu-bar {
+    display: block;
+     
+    margin-top: 0px;
+  }
+
+  #menu:checked~.side-menu {
+    left: 0;
+  }
+
+  nav {
+    background: #046307;
+height: 60px;
+    position: fixed;
+
+
+  }
+  .main{
+    margin: 5px;
+  }
+  .bod {
+    
+  width: 100%;
+   
+  border: 1px solid #E5E5E5;
+margin-top: 100px;
+  border-radius: 10px;
+  /* background:  url("../image/back.png") no-repeat ; */
+  /* background-image:
+    linear-gradient(to bottom, rgba(19, 19, 19, 0.64), rgba(19, 19, 19, 0.64)),
+    url('../image/back.png');
+} */
+
+/* } */ 

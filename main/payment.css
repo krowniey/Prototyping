@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Gotham", sans-serif;
+  src: url("../fonts/GothamBold.ttf");
+}
+
+ 
+
+.fa-icons {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+
+ 
+
+.main-panel {
+  position: relative;
+   
+  float: right;
+  width: calc(100% - 260px);
+}
+
+.main-panel > .content {
+  padding: 30px 4rem;
+  min-height: calc(100% - 123px);
+}
+
+.main-panel .go-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+
+.main-panel .go-back p {
+  margin-left: 0.75rem;
+}
+
+.main-panel h1 {
+  font-family: "Gotham", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+.main-panel p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.main-panel .options {
+  margin-top: 5rem;
+  margin-right: 3rem;
+}
+
+.main-panel .options .bank-transfer {
+  background: #fcf0ec;
+}
+
+.main-panel .options .bank-transfer h3 {
+  background: #de69441a;
+}
+
+.main-panel .options .bitcoin-wallet {
+  background: #0463071a;
+}
+
+.main-panel .options .bitcoin-wallet h3 {
+  background: #0463071a;
+}
+
+.main-panel .options .gift-card {
+  background: #0463071a;
+}
+
+.main-panel .options .gift-card h3 {
+  background: #0463071a;
+}
+
+.main-panel .options .option-card {
+  position: relative;
+  margin-bottom: 3.5rem;
+  padding: 2rem 4rem;
+}
+
+.main-panel .options .option-card h3 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: -18px;
+}
+
+.main-panel .options .option-card p {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main-panel {
+    width: 100%;
+  }
+  .main-panel > .content {
+    padding: 1rem;
+  }
+  .main-panel h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .main-panel .options {
+    margin-top: 3.5rem;
+  }
+  .main-panel .options .option-card {
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+  }
+  .main-panel .options .option-card h3 {
+    padding: 0.25rem 0.75rem;
+    top: -16px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

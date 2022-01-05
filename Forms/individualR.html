@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+    <title>Hello, world!</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+        }
+
+
+
+
+
+
+
+
+        .btn1 {
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            padding: 5px;
+            color: white;
+
+            background: #046307;
+
+            box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+            border-radius: 6px;
+        }
+
+        .google {
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            padding: 5px;
+            color: black;
+
+            background: white;
+
+            box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+            border-radius: 6px;
+        }
+
+
+        .btn1:hover {
+            background: #ffffff;
+            border: 1px solid #046307;
+
+            box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+            border-radius: 6px;
+            color: black
+        }
+
+        .alternative {
+            color: #636363;
+            margin: 0 0 3px;
+            position: relative;
+            text-align: center;
+        }
+
+        .alternative:before {
+            content: "";
+            height: 2px;
+            width: 40%;
+            left: 0;
+            background: #d4d4d4;
+            position: absolute;
+            top: 50%;
+            z-index: 2;
+        }
+
+        .alternative:after {
+            content: "";
+            height: 2px;
+            width: 40%;
+            background: #d4d4d4;
+            position: absolute;
+            top: 50%;
+            z-index: 2;
+            right: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+        @media screen and (min-width: 768px) {
+
+            .individual,
+            .business {
+                width: 75%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="Form vh-100 mb-4">
+        <div class="container-fluid px-0">
+            <div style="width: 100%; background-color: white;" class="row no-gutters h-100">
+                <div class="col-lg-5">
+                    <img src="../image/frame2.png" alt="." class="img-fluid " style="    
+            width: 500px;" />
+                </div>
+                <div class="col-lg-7 px-4 wrap">
+
+                    <h1 style="margin-top: 60px;
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: bold;">Register Account!</h1>
+                    <p style="  color: #8692a6;
+                    font-weight: 200px;
+                    font-size: 18px;
+                    line-height: 20px;">
+                        For the purpose of industry regulation, your <br> details are required.
+                    </p>
+                    <hr class="col-lg-7">
+                    <form   class="form-row">
+                        <div class="col-lg-7">
+                            <label style="font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px; color: #696F79;" class="mt-3" for="">Your Fullname*</label>
+                            <input type="name" name="name" id="" placeholder="Fullname" style=" box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+                            border-radius: 6px;" class=" p-4 form-control">
+                        </div>
+                        <div class="col-lg-7">
+                            <label style="font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px; color: #696F79;" class="mt-3" for=""> Email address*</label>
+                            <input type="email" name="name" id="" placeholder="Enter email address" style=" box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+                            border-radius: 6px;" class=" p-4 form-control">
+                        </div>
+                        <div class="col-lg-7">
+                            <label style="font-weight: 500;
+                            font-size: 14px;
+                            line-height: 19px; color: #696F79;" class="mt-3" for="">Create password</label>
+                            <input type="password" name="name" id="" placeholder="Create password" style=" box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+                            border-radius: 6px;" class=" p-4 form-control">
+                        </div>
+                        <br>
+                        <div class="form-check col-lg-7 ml-3 ">
+                            <input type="checkbox" class=" check-success form-check-input" id="exampleCheck1">
+                            <label class="form-check-label text-secondary text-bold" for="exampleCheck1">I agree to
+                                terms & conditions</label>
+                        </div>
+                        <a  href="./profilereg.html" class="col-lg-7 mt-5">
+                            <button type="button" class="btn1 ">Register Account</button>
+                        </a>
+                        
+                        <br>
+                        <div class=" col-lg-7  mt-1 alternative"> Or</div>
+
+                        <button class="
+                         col-lg-7
+                        google mb-3 mt-3 p-2
+                      ">
+                            <div class="  d-flex align-items-center text-dark">
+                                <img src="../image/google.png" alt="..." class="img-fluid ml-4 mr-5"
+                                    style="  width:20px ;" />
+                                <div class="ml-5 mt-1  text-left">
+
+                                    <p style="color: #8692A6;font-size: 14px;"> Register with Google</p>
+                                </div>
+                            </div>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
